@@ -1,0 +1,31 @@
+theme = dark:iTerm2 Tango Dark,light:iTerm2 Tango Light
+
+font-family = JetBrains Mono NL
+font-size = 14
+
+cursor-style = block
+
+adjust-cell-height = 20%
+
+mouse-scroll-multiplier = 2
+
+window-colorspace = display-p3
+
+copy-on-select = clipboard
+
+window-padding-color = extend
+window-padding-balance = true
+
+window-save-state = always
+
+shell-integration = detect
+shell-integration-features = no-cursor,sudo,title
+
+notify-on-command-finish = always
+notify-on-command-finish-action = bell
+bell-features = system,no-attention
+
+macos-titlebar-proxy-icon = hidden
+
+custom-shader = shaders/cursor_warp.glsl
+

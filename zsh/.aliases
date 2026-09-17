@@ -1,0 +1,25 @@
+# Bash
+alias ll="ls -la"
+
+# Git
+
+alias gco="git checkout"
+alias gst="git status"
+alias gaa="git add --all"
+alias gcmsg="git commit -m"
+alias gcm="git checkout main"
+alias gcan="git commit --amend --no-edit"
+alias grbm="git rebase main"
+alias gf="git fetch"
+alias gm="git merge"
+alias gpf="git push --force"
+
+# Yarn
+
+alias ya="yarn"
+alias ys="yarn start"
+alias yy="yarn && yarn start"
+
+# Neovim
+
+alias v="nvim"
